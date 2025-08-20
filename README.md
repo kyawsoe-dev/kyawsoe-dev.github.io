@@ -1,9 +1,9 @@
 <h1 align="center">Hi <img src="https://cultofthepartyparrot.com/parrots/hd/headbangingparrot.gif" width="30" height="30"/> I'm Kyaw Soe</h1>
-<h3 align="center">Application Developer & Computer Science Student</h3>
+<h3 align="center">Fullstack Developer</h3>
 
 **About me**
 
-- Application Developer at [Brainwave Data Co., Ltd](https://www.brainwavedata.com/)
+- Fullstack Developer at [Myanmar Information Technology Pte., Ltd](https://www.mit.com.mm/)
 
 <h2  align="center">📫 Reach me on</h2>
 <p align="center">
