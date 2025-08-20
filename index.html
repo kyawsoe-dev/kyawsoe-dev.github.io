@@ -4,15 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Home - About Me</title>
-    <link rel="icon" type="image/png" sizes="300x300" href="assets/img/ava.png">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" sizes="300x300" href="assets/img/me.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/splash.css">
     <!-- google ads -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1284575678233580"
         crossorigin="anonymous"></script>
@@ -26,113 +25,128 @@
     </script>
 </head>
 
-<body style="background-image: url('assets/img/bgone.jpg');">
-    <div id="splashScreen" class="splash-screen">
-        <div class="flex s-s-con-1">
-            <div class="splash-ss-item-1">
-                <img class="icon_rotate" src="assets/img/rotate-icon.png" alt="rotate-icon">
+<body>
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-white p-2 border-bottom shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="/"><img src="assets/img/logo.png" width="150" height="30" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary" href="index.html" style="width: 100px;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="cv.html" style="width: 150px;">Curriculum Vitae</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="projects.html" style="width: 100px;">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="width: 100px;"></a>
+                        </li>
+                        <li class="nav-item mt-1">
+                            <button id="theme-toggle" class="btn btn-sm btn-outline-secondary ml-3">
+                                <i class="fas fa-moon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
     </div>
 
-    <nav class="navbar navbar-collapse navbar-dark navbar-expand-md p-2 sticky-top"
-        style="background-image: url('assets/img/bg.jpg');">
-        <div class="container-fluid">
-            <a class="navbar-brand logo" href="/">
-                <img src="assets/img/ukslogo.png" width="150px" height="50px" alt="logo"></a>
-                <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav">
-                    <span class="sr-only"></span><span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item role=" presentation">
-                        <a class="nav-link" href="index.html" style="width: 100px;">Home</a>
-                    </li>
-                    <li class="nav-item role=" presentation">
-                        <a class="nav-link" href="cv.html" style="width: 150px;">Curriculum Vitae</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" href="projects.html" style="width: 100px;">Projects</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" href="#" style="width: 100px;"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <main class="page lanidng-page">
+    <main class="page landing-page">
         <section class="portfolio-block block-intro">
             <div class="avatar">
                 <img src="/assets/img/me.jpg" class="myphoto m-2" width="120px" height="120px" style="border-radius: 50%;" alt="my photo">
             </div><br>
             <div class="container">
-                <div class="about-me text-white">
+                <div class="about-me ">
                     <p class="animate-charcter">Hi <span class="wave">👋</span> I'm Kyaw Soe, </strong></p>
-                    <h2 data-text="Application Developer">Application Developer</h2><br>
-                    <a class="btn btn-outline-success text-white border-danger" role="button" href="cv.html">More..</a>
+                    <h2 data-text="Fullstack Developer">Fullstack Developer</h2><br>
+                    <a class="btn btn-outline-info" role="button" href="cv.html">More..</a>
                 </div>
             </div>
         </section>
     </main>
     <!-- Start: Brands -->
-    <div class="brands text-center" style="background-color: rgba(0, 0, 0, 0.3);">
-        <img class="justify-content-center align-items-center m-2" title="ubuntu" src="/assets/img/ubuntu_480px.png" style="width: 25px; height: 25px" />
+    <div class="brands text-center">
+        <img class="m-2" title="ubuntu" src="/assets/img/ubuntu_480px.png" style="width: 25px; height: 25px" />
     </div>
-    <div class="brands text-center" style="background-color: rgba(0, 0, 0, 0.3);">
-        <img class="justify-content-center align-items-center m-2" title="java" src="/assets/img/java.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="androidstudio" src="/assets/img/android-studio.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="firebase" src="/assets/img/logo-vertical.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="android" src="/assets/img/android_os_480px.png" style="width: 25px; height: 25px" />
+    <div class="brands text-center">
+        <img class="m-2" title="java" src="/assets/img/java.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="androidstudio" src="/assets/img/android-studio.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="firebase" src="/assets/img/logo-vertical.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="android" src="/assets/img/android_os_480px.png" style="width: 25px; height: 25px" />
+    </div>
+    <div class="brands text-center">
+        <img class="m-2" title="github" src="/assets/img/github_512px.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="git" src="/assets/img/git_500px.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="adobexd" src="/assets/img/adobe_xd_480px.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="trello" src="/assets/img/trello_480px.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="figma" src="/assets/img/Figma-logo.svg" style="width: 25px; height: 25px" />
+    </div>
+    <div class="brands text-center">
+        <img class="m-2" title="vscode" src="/assets/img/visual_studio_code_2019_480px.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="html5" src="/assets/img/html_5_480px.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="css3" src="/assets/img/css3_480px.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="bootstrap" src="/assets/img/bootstrap_480px.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="javascript" src="/assets/img/icons8-javascript-480.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="jquery" src="/assets/img/icons8-jquery-500.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="vuejs" src="/assets/img/icons8-vuejs-512.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="php" src="/assets/img/icons8-php-logo-480.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="laravel" src="/assets/img/icons8-laravel-100.png" style="width: 25px; height: 25px" />
+    </div>
+    <div class="brands text-center">
+        <img class="m-2" title="cordova" src="/assets/img/cordova.png" style="width: 25px; height: 25px" />
+        <img class="m-2" title="nativescript" src="/assets/img/nativescript-logo.png" style="width: 30px; height: 25px" />
+    </div>
+    <div class="footer-basic bw-footer">
+        <p class="text-center">Reach me Via</p>
+        <footer>
+            <div class="social">
+                <a href="https://www.github.com/kyawsoe-dev" target="_blank"><i class="icon ion-social-github"></i></a>
+                <a href="https://www.facebook.com/oo.kyawsoe.526" target="_blank"><i class="icon ion-social-facebook"></i></a>
+                <a href="mailto:ookyawsoe@ucssittway.edu.mm" target="_blank"><i class="icon ion-android-mail"></i></a>
+                <a href="https://www.linkedin.com/in/kyaw-soe-328363223" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+            </div>
+            <p class="copyright"> &copy; 
+            <script>
+                var today = new Date();
+                var currentYear = today.getFullYear();
+                document.write(currentYear);
+            </script>, 
+            All Rights Reserved.
+            </p>
+        </footer>
+    </div>
 
-    </div>
-    <div class="brands text-center" style="background-color: rgba(0, 0, 0, 0.3);">
-        <img class="justify-content-center align-items-center m-2" title="github" src="/assets/img/github_512px.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="git" src="/assets/img/git_500px.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="adobexd" src="/assets/img/adobe_xd_480px.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="trello" src="/assets/img/trello_480px.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="figma" src="/assets/img/Figma-logo.svg" style="width: 25px; height: 25px" />
-    </div>
-    <div class="brands text-center" style="background-color: rgba(0, 0, 0, 0.3);">
-        <img class="justify-content-center align-items-center m-2" title="vscode" src="/assets/img/visual_studio_code_2019_480px.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="html5" src="/assets/img/html_5_480px.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="css3" src="/assets/img/css3_480px.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="bootstrap" src="/assets/img/bootstrap_480px.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="javascript" src="/assets/img/icons8-javascript-480.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="jquery" src="/assets/img/icons8-jquery-500.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="vuejs" src="/assets/img/icons8-vuejs-512.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="php" src="/assets/img/icons8-php-logo-480.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="laravel" src="/assets/img/icons8-laravel-100.png" style="width: 25px; height: 25px" />
-    </div>
-    <div class="brands text-center" style="background-color: rgba(0, 0, 0, 0.3);">
-        <img class="justify-content-center align-items-center m-2" title="cordova" src="/assets/img/cordova.png" style="width: 25px; height: 25px" />
-        <img class="justify-content-center align-items-center m-2" title="nativescript" src="/assets/img/nativescript-logo.png" style="width: 30px; height: 25px" />
-    </div>
-    <div class="footer-basic" style="padding-top: 10px; background-image: url('assets/img/bg.jpg');">
-        <p class="text-center text-white" style="font-size: 15px; font-family: Lato, sans-serif; margin-bottom: 0px;">
-            Reach me Via
-        </p>
+    <script>
+        const toggleBtn = document.getElementById("theme-toggle");
+        const body = document.body;
 
-        <div class="footer-basic" style="padding-top: 10px; background-image: url('assets/img/bg.jpg');">
-            <footer>
-                <div class="social">
-                    <a href="https://www.github.com/ookyawsoe-dev" target="_blank"><i class="icon ion-social-github"></i></a>
-                    <a href="https://www.facebook.com/oo.kyawsoe.526" target="_blank"><i class="icon ion-social-facebook"></i></a>
-                    <a href="mailto:ookyawsoe@ucssittway.edu.mm" target="_blank"><i class="icon ion-android-mail"></i></a>
-                    <a href="https://www.linkedin.com/in/kyaw-soe-328363223" target="_blank"><i class="icon ion-social-linkedin"></i></a>
-                </div>
-                <p class="copyright text-white" style="font-size: 15px;"> &copy; 
-                <script>
-                    var today = new Date();
-                    var currentYear = today.getFullYear();
-                    document.write(currentYear);
-                </script>, 
-                All Rights Reserved.
-                </p>
-            </footer>
-        </div>
-    </div>
+        if (localStorage.getItem("theme") === "dark") {
+            body.classList.add("dark-mode");
+            toggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+        }
+
+        toggleBtn.addEventListener("click", () => {
+            body.classList.toggle("dark-mode");
+
+            if (body.classList.contains("dark-mode")) {
+                localStorage.setItem("theme", "dark");
+                toggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                localStorage.setItem("theme", "light");
+                toggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+        });
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>

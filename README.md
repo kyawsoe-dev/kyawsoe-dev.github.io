@@ -27,7 +27,7 @@
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ookyawsoe-dev&show_icons=true&theme=github_dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ookyawsoe-dev&hide=javascript,html,css&layout=compact&theme=github_dark)
-![Kyaw Soe's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ookyawsoe-dev&theme=github-compact)
-![GitHub Streak](https://streak-stats.demolab.com?user=ookyawsoe-dev&theme=merko&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=950)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kyawsoe-dev&show_icons=true&theme=github_dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kyawsoe-dev&hide=javascript,html,css&layout=compact&theme=github_dark)
+![Kyaw Soe's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kyawsoe-dev&theme=github-compact)
+![GitHub Streak](https://streak-stats.demolab.com?user=kyawsoe-dev&theme=merko&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=950)

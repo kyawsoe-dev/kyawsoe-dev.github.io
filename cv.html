@@ -4,15 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Home - CV</title>
-    <link rel="icon" type="image/png" sizes="300x300" href="/assets/img/ava.png">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=0b9077df56be14602d0f84f65cfdacce">
+    <link rel="icon" type="image/png" sizes="300x300" href="/assets/img/me.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=a961c0ca774b1c6d6042193f0cef180b">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
-    <link rel="stylesheet" href="assets/css/splash.css">
-    
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <!-- google ads -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1284575678233580"
         crossorigin="anonymous"></script>
@@ -22,83 +20,132 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-TPET8D6TSW');
     </script>
 </head>
 
 <body>
-    <div id="splashScreen" class="splash-screen">
-        <div class="flex s-s-con-1">
-            <div class="splash-ss-item-1">
-                <img class="icon_rotate" src="assets/img/rotate-icon.png" alt="rotate-icon">
-            </div>
-        </div>
-    </div>
-
-    <div class="sticky-top">
-        <nav class="navbar navbar-dark navbar-expand-md p-2" style="background-image: url('assets/img/bg.jpg');">
-            <div class="container-fluid"><a class="navbar-brand logo" href="/"><img src="assets/img/ukslogo.png" width="150px" height="50px" alt=""></a>
-                <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only"></span>
+     <div class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-white p-2 border-bottom shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="/"><img src="assets/img/logo.png" width="150" height="30" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" href="index.html" style="width: 100px;">Home</a>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="index.html" style="width: 100px;">Home</a>
                         </li>
-                        <li class="nav-item role=" presentation">
-                            <a class="nav-link" href="cv.html" style="width: 150px;">Curriculum Vitae</a>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary" href="cv.html" style="width: 150px;">Curriculum Vitae</a>
                         </li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html" style="width: 100px;">Projects</a></li>
-                        <li class="nav-item" role="presentation">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="projects.html" style="width: 100px;">Projects</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#" style="width: 100px;"></a>
+                        </li>
+                        <li class="nav-item mt-1">
+                            <button id="theme-toggle" class="btn btn-sm btn-outline-secondary ml-3">
+                                <i class="fas fa-moon"></i>
+                            </button>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-    <main class="page cv-page" style="background-image: url('assets/img/bgone.jpg');">
-        <section class="portfolio-block block-intro  text-white" style="background-image: url('assets/img/bgone.jpg');">
+
+    <main class="page cv-page">
+        <section class="portfolio-block block-intro text-dark">
             <div class="container">
-                <div class="avatar" style="background-image: url('assets/img/me.jpg');"></div>
+                <img class="avatar" src="assets/img/me.jpg" alt="Logo">
                 <div class="about-me">
-                    <p class="intro-text">
-                        Hi <span class="wave">👋</span>, I'm Kyaw Soe. 
-                        I studied Computer Science at the University of Computer Studies Sittway (UCSS), and 
-                        I'm currently working at Brainwave Data Co., Ltd as an Application Developer. 
-                        I enjoy creating scalable & elegant Web Applications that have a real-world impact. 
-                        I'm always learning new technologies and striving to become a proficient Software Engineer.
+                    <p class="text-muted">
+                        I'm experienced Fullstack Developer with 3+ year expertise in
+                        building scalable and efficient web applications. Strong problem-solving
+                        abilities, collaborative team player, and dedicated to staying current with
+                        industry trends. Passionate about developing high-quality solutions that
+                        enhance user experience and performance.
                     </p>
                 </div>
             </div>
         </section>
-        <!-- education -->
-        <section class="portfolio-block text-white cv" style="background-image: url('assets/img/bgone.jpg');">
+
+
+        <!-- work experiences -->
+        <section class="portfolio-block cv text-dark">
             <div class="container">
                 <div class="education group">
-                    <div class="heading">
-                        <h2 id="education" class="text-center text-white">Education</h2>
+                    <div class="item">
+                        <h2 class="text-center mb-4">Work Expericences</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <img src="assets/img/mitlogo.png" width="100px" alt="mitlogo">
+                                </div><br>
+                                <h3>Full Stack Web Developer</h3>
+                                <h4 class="bg-info organization">Myanmar Information Technology Pte.,Ltd l Yangon, Myanmar</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period ">4/2024 - Present</span></div>
+                            <ul class="body-text-one">
+                                <li>Developed RESTful APIs and serverless API gateways using AWS Lambda functions for mobile and web applications with Express.js.</li>
+                                <li>Built and maintained scalable web applications using Angular for frontend development and Node.js with Sequelize for backend services.</li>
+                                <li>Implemented H5 mini app development, ensuring optimized mobile experiences.</li>
+                                <li>Integrated Firebase Admin SDK for real-time push notifications and cloud messaging.</li>
+                                <li>Deployed and managed serverless applications using AWS SAM CLI for efficient cloud-based workflows.</li>
+                                <li>Designed, optimized, and managed PostgreSQL and MySQL databases to support business logic and high-performance data operations.</li>
+                                <li>Developed Dockerized microservices for deployment in cloud environments.</li>
+                            </ul>
+                        </div>
                     </div>
+
                     <div class="item">
                         <div class="row">
                             <div class="col-md-6">
                                 <div>
-                                    <img src="assets/img/unilogo.png" width="100px" alt="university logo">
-                                </div>
-                                <br>
-                                <h3><strong>Bachelor of Computer Science (B.C.Sc)&nbsp;</strong></h3>
+                                    <img src="assets/img/bdata-logo-img.png" width="100px" alt="unilogo">
+                                </div><br>
+                                <h3>Junior Application Developer</h3>
+                                <h4 class="bg-info organization">Brainwave Data Co.,Ltd l Sittway, Rakhine, Myanmar</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period ">1/2022 - 3/2024</span></div>
+                            <ul class="body-text-one">
+                                <li>Developed RestFul APIs for Mobile and Web application using Express.js</li>
+                                <li>Created and tailored administrative dashboards by leveraging templates to   achieve optimal design.</li>
+                                <li>Designed SQL and No SQL databases in adherence to normalization rules, ensuring efficient data management.</li>
+                                <li>Proficiently utilized version control systems to streamline collaborative development processes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- education -->
+        <section class="portfolio-block cv text-dark">
+            <div class="container">
+                <div class="education group">
+                    <div class="item">
+                        <h2 class="text-center mb-4">Education Background</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="assets/img/unilogo.png" width="100" alt="university logo">
+                                <h3><strong>Bachelor of Computer Science (B.C.Sc)</strong></h3>
                                 <h4 class="bg-info organization">University of Computer Studies, Sittway (UCSS)</h4>
                             </div>
-                            <div class="col-6"><span class="period text-white">2017 - Present</span></div>
+                            <div class="col-md-6">
+                                <span class="period">2017 - 2024</span>
+                            </div>
                         </div>
-                        <ul class="body-text">
+                        <ul>
                             <li>Foundational technologies such as programming languages and algorithms</li>
                             <li>Explore system-level components like computer architecture and operating systems, master database management and networking technologies</li>
                             <li>Delve software development methodologies and web technologies</li>
                         </ul>
                     </div>
+
                     <div class="item">
                         <div class="row">
                             <div class="col-md-6">
@@ -108,7 +155,7 @@
                                 <h3>Programming Fundamental</h3>
                                 <h4 class="bg-info organization">Ray Hub Academy</h4>
                             </div>
-                            <div class="col-md-6"><span class="period text-white">2/2021 - 5/2021</span></div>
+                            <div class="col-md-6"><span class="period ">2/2021 - 5/2021</span></div>
                             <ul class="body-text-one">
                                 <li>Object Oriented Programming (OOP) Concepts with Java & Networking Basic</li>
                             </ul>
@@ -123,7 +170,7 @@
                                 <h3>Advanced Web Development</h3>
                                 <h4 class="bg-info organization">Ray Hub Academy</h4>
                             </div>
-                            <div class="col-md-6"><span class="period text-white">9/2021 - 1/2022</span></div>
+                            <div class="col-md-6"><span class="period ">9/2021 - 1/2022</span></div>
                         </div>
                         <ul class="body-text">
                             <li>HTML & CSS & Bootstrap</li>
@@ -133,164 +180,124 @@
                             <li>Express</li>
                             <li>Node JS</li>
                             <li>Git & Github</li>
-                            <li>Mysql</li>
+                            <li>MySQL</li>
                             <li>Mongodb</li>
                         </ul>
                     </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div>
-                                    <img src="assets/img/rayhub.png" width="100px" alt="unilogo">
-                                </div><br>
-                                <h3>On Job Training (OJT)</h3>
-                                <h4 class="bg-info organization">Ray Hub Software House</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period text-white">2/2022 - 8/2022</span></div>
-                        </div>
-                        <p class="text-white">I specialized in web development during my internship at Ray Hub Software House from February 2022 to August 2022.</p>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="group my-5">
+                <h2 class="text-center mb-4">Technical Skills</h2>
+                <p class="text-center text-muted mb-5">Technologies and tools I use to build robust backend & frontend solutions</p>
+
+                <div class="row item">
+                    <!-- Programming Languages -->
+                    <div class="col-md-6 mb-4">
+                        <h3>Programming Languages</h3>
+                        <ul class="body-text">
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
+                            <li>C#</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                        </ul>
                     </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div>
-                                    <img src="assets/img/bdata-logo-img.png" width="100px" alt="unilogo">
-                                </div><br>
-                                <h3>Application Developer</h3>
-                                <h4 class="bg-info organization">Brain Wave Data Company</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period text-white">9/2022 - Present</span></div>
-                        </div>
-                        <p class="text-white">I'm currently working as an Application Developer at Brain Wave Data Software Company from September 2022
-                            to Present.
-                        </p>
+
+                    <!-- Frameworks & Libraries -->
+                    <div class="col-md-6 mb-4">
+                        <h3>Frameworks & Libraries</h3>
+                        <ul class="body-text">
+                            <li>Angular</li>
+                            <li>Bootstrap</li>
+                            <li>jQuery</li>
+                            <li>Express.js</li>
+                            <li>NestJS</li>
+                        </ul>
                     </div>
                 </div>
 
-                <!-- skills -->
-                <div class="group">
-                    <div class="row">
-                        <div class="col-md-12" style="background-image: url('assets/img/bggif.gif');">
-                            <div class="skills portfolio-info-card">
-                                <div class="heading">
-                                    <h2 id="skills" class="text-center text-white">Skills</h2>
-                                </div>
-                                <h3>HTML</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="99" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 99%;"><span class="sr-only">99%</span></div>
-                                </div>
-                                <h3>CSS</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="90" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 90%;"><span class="sr-only">90%</span></div>
-                                </div>
-                                <h3>Bootstrap</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="85" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 85%;"><span class="sr-only">85%</span></div>
-                                </div>
-                                <h3>JavaScript</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="80" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
-                                </div>
-                                <h3>JQuery</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="80" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
-                                </div>
-                                <h3>Node JS</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="70" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 70%;"><span class="sr-only">70%</span></div>
-                                </div>
-                                <h3>Express</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="70" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 70%;"><span class="sr-only">70%</span></div>
-                                </div>
-                                <h3>SQL</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="70" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 70%;"><span class="sr-only">70%</span></div>
-                                </div>
-                                <h3>Mongodb</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="70" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 70%;"><span class="sr-only">70%</span></div>
-                                </div>
-                                <h3>AJAX</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="60" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 60%;"><span class="sr-only">60%</span></div>
-                                </div>
-                                <h3>Java</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="50" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
-                                </div>
-                                <h3>C#</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="45" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 45%;"><span class="sr-only">45%</span></div>
-                                </div>
-                                <h3>C++</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="40" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 40%;"><span class="sr-only">40%</span></div>
-                                </div>
-                                <h3>React</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="35" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 35%;"><span class="sr-only">35%</span></div>
-                                </div>
-                                <h3>Typescript</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow="30" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 30%;"><span class="sr-only">30%</span></div>
-                                </div>
-                                <h3>Next JS</h3>
-                                <div class="progress">
-                                    <div class="progress-bar bg-warning" aria-valuenow=20" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 20%;"><span class="sr-only">20%</span></div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row item">
+                    <!-- Databases -->
+                    <div class="col-md-6 mb-4">
+                        <h3>Databases</h3>
+                        <ul class="body-text">
+                            <li>MySQL</li>
+                            <li>PostgreSQL</li>
+                            <li>MongoDB</li>
+                            <li>Redis</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools & Technologies -->
+                    <div class="col-md-6 mb-4">
+                        <h3>Tools & Technologies</h3>
+                        <ul class="body-text">
+                            <li>Git & GitHub</li>
+                            <li>Axios</li>
+                            <li>Node.js</li>
+                            <li>REST APIs</li>
+                        </ul>
                     </div>
                 </div>
+
+                <div class="row item">
+                    <!-- Cloud & Devops -->
+                    <div class="col-md-6 mb-4">
+                        <h3>Cloud & Devops</h3>
+                        <ul class="body-text">
+                            <li>AWS</li>
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                            <li>CI/CD</li>
+                        </ul>
+                    </div>
+                </div>
+
+                </div>
+
             </div>
         </section>
     </main>
-    <div class="footer-basic" style="padding-top: 10px; background-image: url('assets/img/bg.jpg');">
-        <p class="text-center text-white mt-1"
-            style="font-size: 15px; font-family: Lato, sans-serif; margin-bottom: 0px;">
-            Reach me Via
-        </p>
-        <div class="footer-basic" style="padding-top: 10px; background-image: url('assets/img/bg.jpg');">
-            <footer>
-                <div class="social">
-                    <a href="https://www.github.com/ookyawsoe-dev" target="_blank"><i class="icon ion-social-github"></i></a>
-                    <a href="https://www.facebook.com/oo.kyawsoe.526" target="_blank"><i class="icon ion-social-facebook"></i></a>
-                    <a href="mailto:ookyawsoe@ucssittway.edu.mm" target="_blank"><i class="icon ion-android-mail"></i></a>
-                    <a href="https://www.linkedin.com/in/kyaw-soe-328363223" target="_blank"><i class="icon ion-social-linkedin"></i></a>
-                </div>
-                <p class="copyright text-white" style="font-size: 15px;"> &copy; 
-                    <script>
-                        var today = new Date();
-                        var currentYear = today.getFullYear();
-                        document.write(currentYear);
-                    </script>, 
-                    All Rights Reserved.
-                </p>
-            </footer>
-        </div>
+
+    <div class="footer-basic">
+        <footer>
+            <p class="text-center mt-1">Reach me Via</p>
+            <div class="social text-center">
+                <a href="https://www.github.com/kyawsoe-dev" target="_blank"><i class="icon ion-social-github"></i></a>
+                <a href="https://www.facebook.com/oo.kyawsoe.526" target="_blank"><i class="icon ion-social-facebook"></i></a>
+                <a href="mailto:ookyawsoe@ucssittway.edu.mm" target="_blank"><i class="icon ion-android-mail"></i></a>
+                <a href="https://www.linkedin.com/in/kyaw-soe-328363223" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+            </div>
+            <p class="text-center">&copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved.</p>
+        </footer>
     </div>
+
+    <script>
+        const toggleBtn = document.getElementById("theme-toggle");
+        const body = document.body;
+
+        if (localStorage.getItem("theme") === "dark") {
+            body.classList.add("dark-mode");
+            toggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+        }
+
+        toggleBtn.addEventListener("click", () => {
+            body.classList.toggle("dark-mode");
+
+            if (body.classList.contains("dark-mode")) {
+                localStorage.setItem("theme", "dark");
+                toggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                localStorage.setItem("theme", "light");
+                toggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+        });
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/script.min.js"></script>
     <script src="assets/js/splash.js"></script>
-
 </body>
 </html>

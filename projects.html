@@ -5,16 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>OKS - Projects</title>
-    <link rel="icon" type="image/png" sizes="300x300" href="assets/img/ava.png">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=0b9077df56be14602d0f84f65cfdacce">
+    <link rel="icon" type="image/png" sizes="300x300" href="assets/img/me.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=a961c0ca774b1c6d6042193f0cef180b">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
-    <link rel="stylesheet" href="assets/css/splash.css">
 
-    <!-- google ads -->
+    <!-- Google ads -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1284575678233580"
         crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
@@ -23,185 +22,290 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-TPET8D6TSW');
     </script>
 
-    <!-- google amp -->
-    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-    </script>
-
-</head>
+    <!-- Google AMP -->
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
 
 <body>
-    <amp-auto-ads type="adsense" data-ad-client="ca-pub-1284575678233580">
-    </amp-auto-ads>
-    <nav class="navbar navbar-dark navbar-expand-md p-2 bg-dark sticky-top" style="background-image: url('assets/img/bg.jpg');">
-        <div class="container-fluid"><a class="navbar-brand logo"
-                href="/"><img src="assets/img/ukslogo.png"
-                    width="150px" height="50px" alt=""></a><button data-toggle="collapse" class="navbar-toggler"
-                data-target="#navbarNav"><span class="sr-only"></span><span
-                    class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html"
-                            style="width: 100px;">Home</a></li>
-                    <li class="nav-item role=" presentation">
-                        <a class="nav-link" href="cv.html" style="width: 150px;">Curriculum Vitae</a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html"
-                            style="width: 100px;">Projects</a></li>
-                    <li class="nav-item" role="presentation">
-                        <a class="nav-link" href="#" style="width: 100px;"></a>
-                    </li>
-                </ul>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-1284575678233580"></amp-auto-ads>
+
+     <div class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-white p-2 border-bottom shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand logo" href="/"><img src="assets/img/logo.png" width="150" height="30" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="index.html" style="width: 100px;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="cv.html" style="width: 150px;">Curriculum Vitae</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary" href="projects.html" style="width: 100px;">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="width: 100px;"></a>
+                        </li>
+                         <li class="nav-item mt-1">
+                            <button id="theme-toggle" class="btn btn-sm btn-outline-secondary ml-3">
+                                <i class="fas fa-moon"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div id="splashScreen" class="splash-screen">
-        <div class="flex s-s-con-1">
-            <div class="splash-ss-item-1">
-                <img class="icon_rotate" src="assets/img/rotate-icon.png" alt="rotate-icon">
-            </div>
-        </div>
+        </nav>
     </div>
 
-    <main class="page projets-page" style="background-image: url('assets/img/bgone.jpg');">
+
+    <main class="page projets-page">
         <section class="portfolio-block" style="padding-top: 40px !important;">
-            <div class="container text-white">
-                <div class="heading">
-                    <h2 class="text-white">Projects</h2>
+            <div class="container">
+                <div class="heading text-center mb-5">
+                    <h2>Featured Projects</h2>
+                    <p class="text-muted">A showcase of web applications and systems I've built using modern technologies</p>
                 </div>
+
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
-                            <h3>Myanmar Proverbs</h3>
-                            <h4>Personal Project</h4><a class="btn btn-outline-primary btn-sm" role="button"
-                                href="https://myanmarproverbs.onrender.com" target="_blank">See More</a>
-                            <div class="tags"><a href="https://myanmarproverbs.onrender.com">HTML & CSS & Express JS</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>Myanmar Dream Dictionary</h3>
-                            <h4>Personal Project</h4><a class="btn btn-outline-primary btn-sm" role="button"
-                                href="https://mmdreamdictionary.onrender.com" target="_blank">See More</a>
-                            <div class="tags"><a href="https://mmdreamdictionary.onrender.com">HTML & CSS & JavaScript</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>Team To Do</h3>
-                            <h4>Team Project</h4><a class="btn btn-outline-primary btn-sm" role="button" href="https://github.com/ookyawsoe-ucss/TeamToDo-TTD.git" target="_blank">See More</a>
-                            <div class="tags"><a href="https://github.com/ookyawsoe-ucss/TeamToDo-TTD.git">Express JS & Mysql</a>
+                            <h3 class="h5 mb-2">NestJS Prisma Generator CLI</h3>
+                            <p class="text-muted">A published npm package for NestJS project generation with Prisma, fully modular and optimized.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark me-1">HTML</span>
+                                <span class="badge bg-light text-dark me-1">CSS</span>
+                                <span class="badge bg-light text-dark me-1">Typescript</span>
+                                <span class="badge bg-light text-dark me-1">NestJS</span>
+                            </div>
+                            <div>
+                                <a href="https://github.com/kyawsoe-dev/nestjs-generator-cli" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+                                <i class="ion-social-github me-1"></i> Code
+                                </a>
+                                <a href="https://www.npmjs.com/package/nestjs-prisma-cli" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="ion-android-open me-1"></i> Live
+                                </a>
                             </div>
                         </div>
                     </div>
+
+
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
-                            <h3>Health Care</h3>
-                            <h4>Advanced Class Team Project</h4><a class="btn btn-outline-primary btn-sm" role="button" href="assets/projects/HealthCare/index.html">See More</a>
-                            <div class="tags"><a href="assets/projects/HealthCare/index.html">Express JS & Mysql</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>Travel Guide to Mrauk Oo</h3>
-                            <h4>Personal Project</h4>
-                            <a class="btn btn-outline-primary btn-sm" role="button" href="https://juniorkyawsoe.github.io/Travel-Guide-To-Mrauk-Oo" target="_blank">See More</a>
-                            <div class="tags"><a href="https://juniorkyawsoe.github.io/Travel-Guide-To-Mrauk-Oo">HTML & CSS & JavaScript</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>Learning Programming</h3>
-                            <h4>School Project</h4><a class="btn btn-outline-primary btn-sm" role="button"
-                                href="assets/projects/Learning/index.html">See More</a>
-                            <div class="tags"><a href="assets/projects/Learning/index.html">HTML & CSS & JavaScript</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>UCSS Online LMS</h3>
-                            <h4>School Project</h4>
-                            <a class="btn btn-outline-primary btn-sm" role="button" href="https://github.com/ookyawsoe-dev/UCSS_ONLINE_LMS" target="_blank">See More</a>
-                            <div class="tags"><a href="https://github.com/ookyawsoe-dev/UCSS_ONLINE_LMS" target="_blank">HTML & CSS & JavaScript</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>Ray Hub Typing</h3>
-                            <h4>Ray Hub Typing Game</h4><a class="btn btn-outline-primary btn-sm" role="button"
-                                href="assets/projects/SIS/index.html">See More</a>
-                            <div class="tags"><a href="assets/projects/SIS/index.html">JAVA</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>Block Puzzle Game</h3>
-                            <h4>Java Project</h4><a class="btn btn-outline-primary btn-sm" role="button"
-                                href="https://github.com/ookyawsoe-dev/BlockPuzzle-Game" target="_blank">See More</a>
-                            <div class="tags"><a href="https://github.com/ookyawsoe-dev/BlockPuzzle-Game">Java</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>Brick Ball Out Game</h3>
-                            <h4>Java Project</h4><a class="btn btn-outline-primary btn-sm" role="button"
-                                href="assets/projects/BrickBOGame/index.html">See More</a>
-                            <div class="tags">
-                                <a href="assets/projects/BrickBOGame/index.html">Java</a>
+                            <h3 class="h5 mb-2">Telegram Bot</h3>
+                            <p class="text-muted">A Telegram bot built with NestJS, Prisma, and Telegraf that can convert YouTube videos to MP3 and more.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark me-1">Telegraf</span>
+                                <span class="badge bg-light text-dark me-1">FFMPEG</span>
+                                <span class="badge bg-light text-dark me-1">Glob</span>
+                                <span class="badge bg-light text-dark me-1">Typescript</span>
+                            </div>
+                            <div>
+                                <a href="https://github.com/kyawsoe-dev/nestjs-generator-cli" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+                                <i class="ion-social-github me-1"></i> Code
+                                </a>
+                                <a href="https://t.me/video2mp3_converter_192_bot" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="ion-android-open me-1"></i> Live
+                                </a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
-                            <h3>Library Management System</h3>
-                            <h4>Java Project</h4><a class="btn btn-outline-primary btn-sm" role="button"
-                                href="https://github.com/ookyawsoe-dev/LibraryManagementSystem" target="_blank">See More</a>
-                            <div class="tags"><a href="https://github.com/ookyawsoe-dev/LibraryManagementSystem">JAVA & SQL</a></div>
+                            <h3 class="h5 mb-2">Myanmar Proverbs</h3>
+                            <p class="text-muted mb-3">A collection of Myanmar Proverbs built with Express.js, styled using HTML & CSS.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark me-1">HTML</span>
+                                <span class="badge bg-light text-dark me-1">CSS</span>
+                                <span class="badge bg-light text-dark me-1">Express.js</span>
+                            </div>
+                            <div>
+                                <a href="https://github.com/kyawsoe-dev/myanmar-proverbs" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+                                <i class="ion-social-github me-1"></i> Code
+                                </a>
+                                <a href="https://myanmarproverbs.onrender.com" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="ion-android-open me-1"></i> Live
+                                </a>
+                            </div>
                         </div>
                     </div>
+                    
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
-                            <h3>Fresher Welcome Voting App</h3>
-                            <h4>Team Project</h4><a class="btn btn-outline-primary btn-sm" role="button" href="assets/projects/FW/index.html">See More</a>
-                            <div class="tags"><a href="assets/projects/FW/index.html">Express JS & Mysql</a></div>
+                            <h3 class="h5 mb-2">Myanmar Dream Dictionary</h3>
+                            <p class="text-muted mb-3">An online dream interpretation app developed with Javascript and Node.js backend.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-light text-dark me-1">HTML</span>
+                                <span class="badge bg-light text-dark me-1">CSS</span>
+                                <span class="badge bg-light text-dark me-1">Javascript</span>
+                            </div>
+                            <div>
+                                <a href="https://github.com/kyawsoe-dev/mm-dream-dictionary" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+                                <i class="ion-social-github me-1"></i> Code
+                                </a>
+                                <a href="https://mmdreamdictionary.onrender.com" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="ion-android-open me-1"></i> Live
+                                </a>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3 class="h5 mb-2">Team To Do</h3>
+                            <p class="text-muted mb-3">A collaborative task manager with boards for To Do, Doing, and Done. Inspired by Jira, it helps teams track.</p>
+                            <div class="mb-3">
+                            <span class="badge bg-light text-dark me-1">EJS</span>
+                            <span class="badge bg-light text-dark me-1">Javascript</span>
+                            <span class="badge bg-light text-dark me-1">Express.js</span>
+                            <span class="badge bg-light text-dark me-1">MySQL</span>
+                            </div>
+                            <div>
+                            <a href="#" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+                                <i class="ion-social-github me-1"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="ion-android-open me-1"></i> Live
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3 class="h5 mb-2">Health Care</h3>
+                            <p class="text-muted mb-3">A system built for streamlines patient records, appointments, and medical services in one platform.</p>
+                            <div class="mb-3">
+                            <span class="badge bg-light text-dark me-1">EJS</span>
+                            <span class="badge bg-light text-dark me-1">Javascript</span>
+                            <span class="badge bg-light text-dark me-1">Express.js</span>
+                            <span class="badge bg-light text-dark me-1">MySQL</span>
+                            </div>
+                            <div>
+                            <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                                <i class="ion-social-github me-1"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="ion-android-open me-1"></i> Live
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3 class="h5 mb-2">Travel Guide to Mrauk Oo</h3>
+                            <p class="text-muted mb-3">A personal project showcasing travel information about Mrauk Oo with HTML, CSS, and Javascript.</p>
+                            <div class="mb-3">
+                            <span class="badge bg-light text-dark me-1">HTML</span>
+                            <span class="badge bg-light text-dark me-1">CSS</span>
+                            <span class="badge bg-light text-dark me-1">Javascript</span>
+                            </div>
+                            <div>
+                            <a href="https://github.com/juniorkyawsoe/Travel-Guide-To-Mrauk-Oo" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+                                <i class="ion-social-github me-1"></i> Code
+                            </a>
+                            <a href="https://juniorkyawsoe.github.io/Travel-Guide-To-Mrauk-Oo" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="ion-android-open me-1"></i> Live
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3 class="h5 mb-2">Learning Programming</h3>
+                            <p class="text-muted mb-3">A school project to help beginners learn programming basics with interactive examples.</p>
+                            <div class="mb-3">
+                            <span class="badge bg-light text-dark me-1">HTML</span>
+                            <span class="badge bg-light text-dark me-1">CSS</span>
+                            <span class="badge bg-light text-dark me-1">Javascript</span>
+                            </div>
+                            <div>
+                             <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                                <i class="ion-social-github me-1"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="ion-android-open me-1"></i> Live
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3 class="h5 mb-2">UCSS Online LMS</h3>
+                            <p class="text-muted mb-3">
+                            A digital library platform for UCSS students to access, borrow, and manage books online.
+                            </p>
+                            <div class="mb-3">
+                            <span class="badge bg-light text-dark me-1">HTML</span>
+                            <span class="badge bg-light text-dark me-1">CSS</span>
+                            <span class="badge bg-light text-dark me-1">Javascript</span>
+                            </div>
+                            <div>
+                            <a href="https://github.com/ookyawsoe-dev/UCSS_ONLINE_LMS" target="_blank" class="btn btn-outline-dark btn-sm me-2">
+                                <i class="ion-social-github me-1"></i> Code
+                            </a>
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="ion-android-open me-1"></i> Live
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
     </main>
-    <div class="footer-basic" style="padding-top: 10px; background-image: url('assets/img/bg.jpg');">
-        <p class="text-center text-white mt-1"
-            style="font-size: 15px; font-family: Lato, sans-serif; margin-bottom: 0px;">
+
+    <div class="footer-basic" style="padding-top: 10px;">
+        <p class="text-center mt-1" style="font-size: 15px; font-family: Lato, sans-serif; margin-bottom: 0px;">
             Reach me Via
         </p>
-
-        <div class="footer-basic" style="padding-top: 10px; background-image: url('assets/img/bg.jpg');">
-            <footer>
-                <div class="social">
-                    <a href="https://www.github.com/ookyawsoe-dev" target="_blank"><i class="icon ion-social-github"></i></a>
-                    <a href="https://www.facebook.com/oo.kyawsoe.526" target="_blank"><i class="icon ion-social-facebook"></i></a>
-                    <a href="mailto:ookyawsoe@ucssittway.edu.mm" target="_blank"><i class="icon ion-android-mail"></i></a>
-                    <a href="https://www.linkedin.com/in/kyaw-soe-328363223" target="_blank"><i class="icon ion-social-linkedin"></i></a>
-                </div>
-                <p class="copyright text-white" style="font-size: 15px;"> &copy; 
-                    <script>
-                        var today = new Date();
-                        var currentYear = today.getFullYear();
-                        document.write(currentYear);
-                    </script>, 
-                    All Rights Reserved.
-                </p>
-            </footer>
-        </div>
+        <footer>
+            <div class="social text-center mb-2">
+                <a href="https://www.github.com/kyawsoe-dev" target="_blank"><i class="icon ion-social-github"></i></a>
+                <a href="https://www.facebook.com/oo.kyawsoe.526" target="_blank"><i class="icon ion-social-facebook"></i></a>
+                <a href="mailto:ookyawsoe@ucssittway.edu.mm" target="_blank"><i class="icon ion-android-mail"></i></a>
+                <a href="https://www.linkedin.com/in/kyaw-soe-328363223" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+            </div>
+            <p class="text-center" style="font-size: 15px;">&copy; <script>document.write(new Date().getFullYear());</script>, All Rights Reserved.</p>
+        </footer>
     </div>
+
+    <script>
+        const toggleBtn = document.getElementById("theme-toggle");
+        const body = document.body;
+
+        if (localStorage.getItem("theme") === "dark") {
+            body.classList.add("dark-mode");
+            toggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+        }
+
+        toggleBtn.addEventListener("click", () => {
+            body.classList.toggle("dark-mode");
+
+            if (body.classList.contains("dark-mode")) {
+                localStorage.setItem("theme", "dark");
+                toggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                localStorage.setItem("theme", "light");
+                toggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+        });
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/script.min.js?h=f82c1f62e9f66b57f268c9f78badf050"></script>
+    <script src="assets/js/script.min.js"></script>
     <script src="assets/js/splash.js"></script>
 </body>
 
