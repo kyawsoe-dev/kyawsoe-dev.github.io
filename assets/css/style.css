@@ -46,6 +46,22 @@ body.dark-mode .navbar-light .navbar-toggler-icon {
     filter: invert(1) grayscale(100%) brightness(200%);
 }
 
+body.dark-mode .brands img[title="github"],
+body.dark-mode .brands img[title="git"] {
+  filter: brightness(0) invert(1);
+}
+
+body.dark-mode .nav-link.active {
+    color: #00cfcf !important;
+}
+
+body.dark-mode .nav-link {
+    color: #f5f5f5 !important;
+}
+
+body.dark-mode .project-card-no-image {
+    box-shadow: 0 2px 8px #444;
+}
 
 .brands,
 .footer-basic {

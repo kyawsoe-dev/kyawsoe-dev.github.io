@@ -266,7 +266,7 @@
             <div class="social text-center">
                 <a href="https://www.github.com/kyawsoe-dev" target="_blank"><i class="icon ion-social-github"></i></a>
                 <a href="https://www.facebook.com/oo.kyawsoe.526" target="_blank"><i class="icon ion-social-facebook"></i></a>
-                <a href="mailto:ookyawsoe@ucssittway.edu.mm" target="_blank"><i class="icon ion-android-mail"></i></a>
+                <a href="mailto:kyawsoedeveloper@gmail.com" target="_blank"><i class="icon ion-android-mail"></i></a>
                 <a href="https://www.linkedin.com/in/kyaw-soe-328363223" target="_blank"><i class="icon ion-social-linkedin"></i></a>
             </div>
             <p class="text-center">&copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved.</p>
@@ -276,6 +276,11 @@
     <script>
         const toggleBtn = document.getElementById("theme-toggle");
         const body = document.body;
+
+        const savedTheme = localStorage.getItem("theme");
+        if (!savedTheme) {
+            localStorage.setItem("theme", "dark");
+        }
 
         if (localStorage.getItem("theme") === "dark") {
             body.classList.add("dark-mode");

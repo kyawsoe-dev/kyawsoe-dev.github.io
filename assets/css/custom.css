@@ -18,33 +18,31 @@
   padding-left: 30px;
 }
 
-h2{
-  font-family: 'Teko', sans-serif;
+h2 {
+  font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
-  font-size: 1.7em;
+  font-size: 2em;
   text-align: center;
-  display: -webkit-flex;
   display: flex;
-  -webkit-align-items: center;
   align-items: center;
-  -webkit-justify-content: center;
   justify-content: center;
   margin: 0;
   position: relative;
-  color: #212529;
+  color: #00cfcf;
+  letter-spacing: 2px;
 }
 
-h2:before{
+h2:before {
   content: attr(data-text);
   position: absolute;
-  background: linear-gradient(#f70000, #f89200, #f8f501, #038f00,#0168f8, #a200f7);
+  background: linear-gradient(90deg, #00ffff, #ff00ff, #ffcc00, #00ff00);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-size: 100% 90%;
-  line-height: 0.9;
-  clip-path: ellipse(120px 120px at -2.54% -9.25%);
-  animation: swing 3s infinite;
-  animation-direction: alternate;
+  animation: swing 3s infinite alternate;
+  font-weight: 700;
+  letter-spacing: 2px;
+  clip-path: ellipse(120px 120px at 50% 50%);
 }
 
 @keyframes swing{
@@ -61,4 +59,26 @@ h2:before{
      -webkit-clip-path: ellipse(120px 120px at 102.62% -1.61%;);
     clip-path: ellipse(120px 120px at 102.62% -1.61%);
   }
+} 
+
+.about-me p {
+  font-size: 1.2em;
+  color: #00cfcf;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.wave {
+  animation: wave-animation 2s infinite;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  40% { transform: rotate(14deg); }
+  50% { transform: rotate(-4deg); }
+  60% { transform: rotate(10deg); }
+  70% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
 }
