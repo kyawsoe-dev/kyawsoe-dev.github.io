@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Home - About Me</title>
+    <title>Kyaw Soe | Home</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#317EFB">
     <!-- google ads -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1284575678233580"
         crossorigin="anonymous"></script>
@@ -76,6 +78,7 @@
     </main>
     <!-- Start: Brands -->
     <div class="brands text-center">
+        
         <img class="m-2" title="ubuntu" src="/assets/img/ubuntu_480px.png" style="width: 25px; height: 25px" />
     </div>
     <div class="brands text-center">
@@ -151,6 +154,15 @@
                 toggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
             }
         });
+
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker
+                .register("/service-worker.js")
+                .then(reg => console.log("Service Worker registered:", reg))
+                .catch(err => console.log("Service Worker failed:", err));
+            });
+        }
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
