@@ -7,8 +7,8 @@
 
 <h2  align="center">📫 Reach me on</h2>
 <p align="center">
-<a href="https://www.facebook.com/oo.kyawsoe.526" target="blank">
-<img align="center" src="https://cdn-icons-png.flaticon.com/128/2504/2504903.png" alt="Facebook Profile" height="40" width="40" />
+<a href="mailto:kyawsoedeveloper@gmail.com" target="_blank">
+  <img align="center" src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Email" height="40" width="40" />
 </a>
 <a href="https://www.linkedin.com/in/kyaw-soe-328363223/" target="blank">
 <img align="center" src="https://cdn-icons-png.flaticon.com/128/2504/2504923.png" alt="Linked Profile" height="40" width="40" />
@@ -22,6 +22,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![NestJS](https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
