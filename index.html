@@ -29,39 +29,9 @@
 </head>
 
 <body>
-    <div class="sticky-top">
-        <nav class="navbar navbar-expand-md navbar-light bg-white p-2 border-bottom shadow-sm">
-            <div class="container-fluid">
-                <img src="assets/img/kslogo.png" width="120" height="40" alt="Logo">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active text-secondary" href="index.html" style="width: 100px;">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="cv.html" style="width: 150px;">Curriculum Vitae</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="projects.html" style="width: 100px;">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="github.html" style="width: 100px;">Public Repo</a>
-                        </li>
-                        <li class="nav-item mt-1">
-                            <button id="theme-toggle" class="btn btn-sm btn-outline-secondary ml-3">
-                                <i class="fas fa-moon"></i>
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-
-
+    <!-- Navbar placeholder -->
+    <div id="navbar"></div>
+    
     <main class="page landing-page">
         <section class="portfolio-block block-intro">
             <div class="avatar">
@@ -105,66 +75,16 @@
         <img class="m-2" title="php" src="/assets/img/icons8-php-logo-480.png" style="width: 25px; height: 25px" />
         <img class="m-2" title="laravel" src="/assets/img/icons8-laravel-100.png" style="width: 25px; height: 25px" />
     </div>
-    <div class="brands text-center">
+    <div class="brands text-center mb-2">
         <img class="m-2" title="cordova" src="/assets/img/cordova.png" style="width: 25px; height: 25px" />
         <img class="m-2" title="nativescript" src="/assets/img/nativescript-logo.png" style="width: 30px; height: 25px" />
     </div>
-    <div class="footer-basic bw-footer">
-        <p class="text-center">Reach me Via</p>
-        <footer>
-            <div class="social">
-                <a href="https://www.github.com/kyawsoe-dev" target="_blank"><i class="icon ion-social-github"></i></a>
-                <a href="https://www.facebook.com/oo.kyawsoe.526" target="_blank"><i class="icon ion-social-facebook"></i></a>
-                <a href="mailto:kyawsoedeveloper@gmail.com" target="_blank"><i class="icon ion-android-mail"></i></a>
-                <a href="https://www.linkedin.com/in/kyaw-soe-328363223" target="_blank"><i class="icon ion-social-linkedin"></i></a>
-            </div>
-            <p class="copyright"> &copy; 
-            <script>
-                var today = new Date();
-                var currentYear = today.getFullYear();
-                document.write(currentYear);
-            </script>, 
-            All Rights Reserved.
-            </p>
-        </footer>
-    </div>
 
-    <script>
-        const toggleBtn = document.getElementById("theme-toggle");
-        const body = document.body;
+    <!-- Footer placeholder -->
+    <div id="footer"></div>
 
-        const savedTheme = localStorage.getItem("theme");
-        if (!savedTheme) {
-            localStorage.setItem("theme", "dark");
-        }
-
-        if (localStorage.getItem("theme") === "dark") {
-            body.classList.add("dark-mode");
-            toggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
-        }
-
-        toggleBtn.addEventListener("click", () => {
-            body.classList.toggle("dark-mode");
-
-            if (body.classList.contains("dark-mode")) {
-                localStorage.setItem("theme", "dark");
-                toggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
-            } else {
-                localStorage.setItem("theme", "light");
-                toggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
-            }
-        });
-
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", () => {
-                navigator.serviceWorker
-                .register("/service-worker.js")
-                .then(reg => console.log("Service Worker registered:", reg))
-                .catch(err => console.log("Service Worker failed:", err));
-            });
-        }
-    </script>
-
+    <!-- Scripts -->
+    <script src="components/js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
