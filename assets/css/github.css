@@ -26,12 +26,12 @@ body.dark-mode a {
   color: #ffffff !important;
 }
 
-h2 a:hover {
+h3 a:hover {
   color: #0366d6 !important;
   text-decoration: none;
 }
 
-body.dark-mode h2 a:hover {
+body.dark-mode h3 a:hover {
   color: #58a6ff !important;
   text-decoration: underline;
 }
