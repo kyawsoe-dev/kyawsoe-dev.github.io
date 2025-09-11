@@ -7,13 +7,11 @@
   border-radius: 2em;
   text-align: center;
 }
-.portfolio-block {
-  padding-top: 50px !important;
-}
 
 .avatar {
   display: inline;
 }
+
 .skills {
   padding-left: 30px;
 }
@@ -61,7 +59,7 @@ h2:before {
 } 
 
 .about-me p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #00cfcf;
   font-family: 'Orbitron', sans-serif;
 }
@@ -80,4 +78,28 @@ h2:before {
   60% { transform: rotate(10deg); }
   70% { transform: rotate(0deg); }
   100% { transform: rotate(0deg); }
+}
+
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 1.5em;
+  }
+  .about-me p {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 575px) {
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .about-me p {
+    font-size: 1.1em;
+  }
+
+  .wave {
+    font-size: 1.1em;
+  }
 }

@@ -1,19 +1,31 @@
 function loadComponent(id, file) {
   fetch(file)
-    .then(res => res.text())
-    .then(data => {
+    .then((res) => res.text())
+    .then((data) => {
       document.getElementById(id).innerHTML = data;
 
       if (file.includes("navbar.html")) {
         initThemeToggle();
         setActiveNav();
+        initSidebarClose();
       }
 
       if (file.includes("footer.html")) {
         setYear();
       }
     })
-    .catch(err => console.error("Error loading " + file, err));
+    .catch((err) => console.error("Error loading " + file, err));
+}
+
+function initSidebarClose() {
+  const closeBtn = document.querySelector(".mobile-sidebar .close-btn");
+  const sidebar = document.getElementById("navbarNav");
+
+  if (closeBtn && sidebar) {
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.remove("show");
+    });
+  }
 }
 
 function initThemeToggle() {
@@ -44,7 +56,7 @@ function setActiveNav() {
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
   const navLinks = document.querySelectorAll("#navbar .nav-link");
 
-  navLinks.forEach(link => {
+  navLinks.forEach((link) => {
     const linkPage = link.getAttribute("href");
     if (linkPage === currentPage) {
       link.classList.remove("text-dark");
@@ -60,8 +72,8 @@ if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
       .register("/service-worker.js")
-      .then(reg => console.log("Service Worker registered:", reg))
-      .catch(err => console.log("Service Worker failed:", err));
+      .then((reg) => console.log("Service Worker registered:", reg))
+      .catch((err) => console.log("Service Worker failed:", err));
   });
 }
 

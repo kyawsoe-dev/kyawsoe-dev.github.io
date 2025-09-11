@@ -28,35 +28,33 @@
     <!-- Navbar placeholder -->
     <div id="navbar"></div>
 
-    <main class="page cv-page">
-        <section class="portfolio-block block-intro text-dark">
-            <div class="container">
-                <img class="avatar" src="assets/img/me.jpg" alt="Logo">
-                <div>
-                    <p class="text-muted">
+    <main class="page">
+        <!-- intro section -->
+        <section class="portfolio-block block-intro text-dark mt-5">
+            <div class="container d-flex flex-column align-items-center text-center">
+                <img class="avatar mb-3" src="assets/img/me.jpg" alt="Logo">
+                <div class="intro-text w-100 w-md-75">
+                    <p class="text-muted text-justify">
                         I'm experienced Fullstack Developer with 3+ year expertise in
                         building scalable and efficient web applications. Strong problem-solving
                         abilities, collaborative team player, and dedicated to staying current with
                         industry trends. Passionate about developing high-quality solutions that
                         enhance user experience and performance.
                     </p>
+                    <hr class="section-divider">
                 </div>
             </div>
         </section>
 
-
         <!-- work experiences -->
         <section class="portfolio-block cv text-dark">
-            <div class="container">
+            <div class="container heading">
                 <div class="education group">
                     <div class="item">
                         <h2 class="text-center mb-4">Work Expericences</h2>
                         <div class="row">
                             <div class="col-md-6">
-                                <div>
-                                    <img src="assets/img/mitlogo.png" width="100px" alt="mitlogo">
-                                </div><br>
-                                <h3>Full Stack Web Developer</h3>
+                                <h3><img src="assets/img/mitlogo.png" width="30px" class="mr-2" alt="mit logo">Full Stack Web Developer</h3>
                                 <h4 class="bg-primary organization">Myanmar Information Technology Pte.,Ltd l Yangon, Myanmar</h4>
                             </div>
                             <div class="col-md-6"><span class="period ">4/2024 - Present</span></div>
@@ -75,10 +73,7 @@
                     <div class="item">
                         <div class="row">
                             <div class="col-md-6">
-                                <div>
-                                    <img src="assets/img/bdata-logo-img.png" width="100px" alt="unilogo">
-                                </div><br>
-                                <h3>Junior Application Developer</h3>
+                                <h3><img src="assets/img/bdata-logo-img.png" class="mr-2" width="50px" alt="bdata logo">Junior Application Developer</h3>
                                 <h4 class="bg-info organization">Brainwave Data Co.,Ltd l Sittway, Rakhine, Myanmar</h4>
                             </div>
                             <div class="col-md-6"><span class="period ">1/2022 - 3/2024</span></div>
@@ -96,14 +91,13 @@
 
         <!-- education -->
         <section class="portfolio-block cv text-dark">
-            <div class="container">
+            <div class="container heading">
                 <div class="education group">
                     <div class="item">
                         <h2 class="text-center mb-4">Education Background</h2>
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="assets/img/unilogo.png" width="100" alt="university logo">
-                                <h3><strong>Bachelor of Computer Science (B.C.Sc)</strong></h3>
+                                <h3><img src="assets/img/unilogo.png" width="30px" alt="university logo">Bachelor of Computer Science (B.C.Sc)</h3>
                                 <h4 class="bg-info organization">University of Computer Studies, Sittway (UCSS)</h4>
                             </div>
                             <div class="col-md-6">
@@ -120,10 +114,7 @@
                     <div class="item">
                         <div class="row">
                             <div class="col-md-6">
-                                <div>
-                                    <img src="assets/img/R.png" width="100px" alt="unilogo">
-                                </div><br>
-                                <h3>Programming Fundamental</h3>
+                                <h3><img src="assets/img/R.png" width="25px" alt="rayhub logo">Programming Fundamental</h3>
                                 <h4 class="bg-info organization">Ray Hub Academy</h4>
                             </div>
                             <div class="col-md-6"><span class="period ">2/2021 - 5/2021</span></div>
@@ -135,10 +126,7 @@
                     <div class="item">
                         <div class="row">
                             <div class="col-md-6">
-                                <div>
-                                    <img src="assets/img/R.png" width="100px" alt="unilogo">
-                                </div><br>
-                                <h3>Advanced Web Development</h3>
+                                <h3><img src="assets/img/R.png" width="25px" alt="rayhub logo">Advanced Web Development</h3>
                                 <h4 class="bg-info organization">Ray Hub Academy</h4>
                             </div>
                             <div class="col-md-6"><span class="period ">9/2021 - 1/2022</span></div>
@@ -164,9 +152,9 @@
 
                 <div class="row item">
                     <!-- Programming Languages -->
-                    <div class="col-md-6 mb-4">
+                    <div class="col-md-6">
                         <h3>Programming Languages</h3>
-                        <ul class="body-text">
+                        <ul class="text-muted">
                             <li>JavaScript</li>
                             <li>TypeScript</li>
                             <li>C#</li>
@@ -178,7 +166,7 @@
                     <!-- Frameworks & Libraries -->
                     <div class="col-md-6 mb-4">
                         <h3>Frameworks & Libraries</h3>
-                        <ul class="body-text">
+                        <ul class="text-muted">
                             <li>Angular</li>
                             <li>Bootstrap</li>
                             <li>jQuery</li>
@@ -192,7 +180,7 @@
                     <!-- Databases -->
                     <div class="col-md-6 mb-4">
                         <h3>Databases</h3>
-                        <ul class="body-text">
+                        <ul class="text-muted">
                             <li>MySQL</li>
                             <li>PostgreSQL</li>
                             <li>MongoDB</li>
@@ -203,7 +191,7 @@
                     <!-- Tools & Technologies -->
                     <div class="col-md-6 mb-4">
                         <h3>Tools & Technologies</h3>
-                        <ul class="body-text">
+                        <ul class="text-muted">
                             <li>Git & GitHub</li>
                             <li>Axios</li>
                             <li>Node.js</li>
@@ -216,7 +204,7 @@
                     <!-- Cloud & Devops -->
                     <div class="col-md-6 mb-4">
                         <h3>Cloud & Devops</h3>
-                        <ul class="body-text">
+                        <ul class="text-muted">
                             <li>AWS</li>
                             <li>Docker</li>
                             <li>Kubernetes</li>
