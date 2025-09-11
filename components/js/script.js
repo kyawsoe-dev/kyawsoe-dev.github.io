@@ -59,10 +59,11 @@ function setActiveNav() {
   navLinks.forEach((link) => {
     const linkPage = link.getAttribute("href");
     if (linkPage === currentPage) {
-      link.classList.remove("text-dark");
-      link.classList.add("active", "text-secondary");
+      link.classList.add("active");
+      link.classList.remove("text-dark", "text-secondary");
     } else {
-      link.classList.remove("active", "text-secondary");
+      link.classList.remove("active");
+      link.classList.remove("text-secondary");
       link.classList.add("text-dark");
     }
   });

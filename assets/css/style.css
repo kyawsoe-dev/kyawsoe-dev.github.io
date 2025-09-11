@@ -11,14 +11,6 @@ body.dark-mode .navbar {
   background-color: #1e1e1e !important;
 }
 
-body.dark-mode .nav-link {
-  color: #f5f5f5 !important;
-}
-
-body.dark-mode .footer-basic .social > a {
-  color: #f5f5f5 !important;
-}
-
 body.dark-mode h2,
 body.dark-mode h3,
 body.dark-mode ul,
@@ -50,12 +42,8 @@ body.dark-mode .brands img[title="git"] {
   filter: brightness(0) invert(1);
 }
 
-body.dark-mode .nav-link.active {
-  color: #00cfcf !important;
-}
-
 body.dark-mode .nav-link {
-  color: #f5f5f5 !important;
+  color: #f5f5f5;
 }
 
 body.dark-mode .project-card-no-image {
@@ -139,6 +127,10 @@ body.dark-mode .project-card-no-image {
   text-align: center;
   font-size: 13px;
   margin-bottom: 0;
+}
+
+.nav-link.active {
+  font-weight: 800;
 }
 
 .avatar {
