@@ -102,7 +102,7 @@ body.dark-mode h3 a:hover {
 
 .repo-meta {
   display: flex;
-  gap: 12px;
+  gap: 8px;
   align-items: center;
   font-size: 0.9rem;
   color: #586069;

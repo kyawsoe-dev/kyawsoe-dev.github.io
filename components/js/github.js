@@ -98,7 +98,7 @@ async function displayRepos() {
               <span><i class="fas fa-code-branch" aria-hidden="true"></i> ${
                 repo.forks_count ?? 0
               }</span>
-              <span>🕒 Updated ${new Date(
+              <span>Updated ${new Date(
                 repo.updated_at
               ).toLocaleDateString()}</span>
             </div>

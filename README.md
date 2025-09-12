@@ -1,4 +1,4 @@
-<h1 align="center">Hi <img src="https://cultofthepartyparrot.com/parrots/hd/headbangingparrot.gif" width="30" height="30"/> I'm Kyaw Soe</h1>
+<h1 align="center">Hi, I'm Kyaw Soe</h1>
 <h3 align="center">Fullstack Developer</h3>
 
 **About me**

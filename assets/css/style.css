@@ -140,6 +140,7 @@ body.dark-mode .project-card-no-image {
 
 .intro-text {
   font-size: 1.3em;
+  font-weight: 300;
   max-width: 800px;
 }
 
