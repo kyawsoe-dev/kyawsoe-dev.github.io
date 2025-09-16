@@ -33,6 +33,15 @@ function initThemeToggle() {
   if (!toggleBtn) return;
 
   const body = document.body;
+  const savedTheme = localStorage.getItem("theme") || "dark";
+
+  if (savedTheme === "dark") {
+    body.classList.add("dark-mode");
+    toggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+  } else {
+    body.classList.remove("dark-mode");
+    toggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
+  }
 
   toggleBtn.addEventListener("click", () => {
     body.classList.toggle("dark-mode");
