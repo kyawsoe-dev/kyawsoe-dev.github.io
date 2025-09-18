@@ -20,13 +20,32 @@ function loadComponent(id, file) {
 function initSidebarClose() {
   const closeBtn = document.querySelector(".mobile-sidebar .close-btn");
   const sidebar = document.getElementById("navbarNav");
+  const navLinks = document.querySelectorAll(".mobile-sidebar .nav-link");
 
-  if (closeBtn && sidebar) {
+  if (!sidebar) return;
+
+  if (closeBtn) {
     closeBtn.addEventListener("click", () => {
       sidebar.classList.remove("show");
     });
   }
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      if (window.innerWidth < 768) {
+        sidebar.classList.remove("show");
+      }
+    });
+  });
+
+  document.addEventListener("click", (event) => {
+    const isClickInside = sidebar.contains(event.target) || event.target.closest(".navbar-toggler");
+    if (!isClickInside && window.innerWidth < 768) {
+      sidebar.classList.remove("show");
+    }
+  });
 }
+
 
 function initThemeToggle() {
   const toggleBtn = document.getElementById("theme-toggle");
