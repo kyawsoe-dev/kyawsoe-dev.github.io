@@ -1,5 +1,5 @@
 const BASE_URL =
-  "https://api.github.com/search/repositories?q=user:kyawsoe-dev+fork:true&sort=updated&per_page=10&type=All";
+  "https://api.github.com/search/repositories?q=user:kyawsoe-dev+fork:false&sort=updated&per_page=10&type=All";
 let currentPage = 1;
 let isLoading = false;
 let hasMore = true;
