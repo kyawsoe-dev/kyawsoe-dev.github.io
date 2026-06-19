@@ -1,0 +1,65 @@
+[
+  {
+    "title": "ENVEIL",
+    "description": "A centralized environment variable and secret management platform for developers. Securely store, encrypt, compare, search, and inject project secrets across multiple applications from a single dashboard.",
+    "tags": ["rust", "nextjs", "secure", "env", "tauri", "lan", "sync"],
+    "github": "https://github.com/phyat/enveil",
+    "live": "https://github.com/kyawsoe-dev/enveil/releases/tag/v0.1.1"
+  },
+  {
+    "title": "PHYAT",
+    "description": "URL shortener and link management platform built for Myanmar builders. Shorten, customize, protect, and track links with a clean dashboard and developer-ready API.",
+    "tags": ["NestJS", "nextjs", "Prisma", "PostgreSQL", "link", "qr"],
+    "github": "https://github.com/phyat/url-shortener",
+    "live": "https://phyat-web.vercel.app"
+  },
+  {
+    "title": "Realtime Chat App",
+    "description": "A realtime chat application featuring instant messaging, notifications, online status, and group conversations. Built using Socket.io for live communication and Prisma with PostgreSQL for data management.",
+    "tags": ["JavaScript", "Prisma", "PostgreSQL", "Socket.io"],
+    "github": "https://github.com/kyawsoe-dev/socket_client",
+    "live": "https://socket-client-w3cc.onrender.com"
+  },
+  {
+    "title": "E-Commerce Platform",
+    "description": "A full-featured e-commerce system supporting merchants, products, categories and payments. Features include user authentication, product management, shopping cart, and order tracking.",
+    "tags": ["TypeScript", "React", "Prisma", "PostgreSQL"],
+    "github": "#",
+    "live": "https://ecommerce-react-miwf.onrender.com"
+  },
+  {
+    "title": "API Monitoring Dashboard",
+    "description": "A full-stack API monitoring dashboard that tracks uptime, latency, and performance for all your services. For intuitive monitoring and integrated with Sentry for automatic error tracking and issue monitoring.",
+    "tags": ["Typescript", "React", "Prisma", "PostgreSQL"],
+    "github": "#",
+    "live": "https://api-reliability-frontend.onrender.com"
+  },
+  {
+    "title": "Multi-Database Manager CLI",
+    "description": "A CLI tool to manage multiple databases from a single interface. It supports Postgres, MySQL, and MongoDB and convenient for SQL common operations.",
+    "tags": ["Typescript", "npm"],
+    "github": "https://github.com/kyawsoe-dev/db-manager-cli",
+    "live": "https://www.npmjs.com/package/multi-dbman-cli"
+  },
+  {
+    "title": "NestJS Prisma Generator CLI",
+    "description": "A CLI tool to generate fully modular NestJS projects with Prisma, featuring pre-configured Swagger, authentication, AWS S3 integration, and Prisma setup.",
+    "tags": ["Javscript", "NestJS", "npm"],
+    "github": "https://github.com/kyawsoe-dev/nestjs-generator-cli",
+    "live": "https://www.npmjs.com/package/nestjs-prisma-cli"
+  },
+  {
+    "title": "MetaClean Telegram Bot",
+    "description": "A Telegram bot that extracts and displays image metadata, detects GPS locations with Google Maps links, and provides metadata-free images.",
+    "tags": ["Telegraf", "EXIF", "Metadata", "Sharp", "Typescript"],
+    "github": "#",
+    "live": "https://t.me/ImageMetaCleanerBot"
+  },
+  {
+    "title": "Telegram Bot",
+    "description": "A Telegram bot that can download, convert, cut, and merge YouTube videos into MP3, as well as provide AI chat and OCR features.",
+    "tags": ["Telegraf", "FFMPEG", "Glob", "Typescript"],
+    "github": "https://github.com/kyawsoe-dev/nestjs-generator-cli",
+    "live": "https://t.me/video2mp3_converter_192_bot"
+  }
+]
