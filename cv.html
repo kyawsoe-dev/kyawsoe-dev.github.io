@@ -35,13 +35,13 @@
                 <img class="avatar mb-3" src="assets/img/me.jpg" alt="Logo">
                 <div class="intro-text w-100 w-md-75">
                     <p class="text-muted text-justify">
-                        I'm experienced Fullstack Developer with 3+ year expertise in
+                        I'm experienced Fullstack Developer with 4+ year expertise in
                         building scalable and efficient web applications. Strong problem-solving
                         abilities, collaborative team player, and dedicated to staying current with
                         industry trends. Passionate about developing high-quality solutions that
                         enhance user experience and performance.
                     </p>
-                    <a href="javascript:void(0);" class="btn btn-primary" onclick="window.print(); return false;">
+                    <a href="javascript:void(0);" class="btn btn-primary" onclick="downloadCV(); return false;">
                         <i class="fas fa-download mr-2"></i>Download CV
                     </a>
                     <hr class="section-divider">
@@ -53,22 +53,39 @@
         <section class="portfolio-block cv text-dark">
             <div class="container heading">
                 <div class="education group">
+
                     <div class="item">
                         <h2 class="text-center mb-4">Work Expericences</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3><img src="assets/img/passion-geek.svg" width="80px" class="mr-2" alt="mit logo">Senior Web Developer</h3>
+                                <h4 class="bg-primary organization">PassionGeek Co.,Ltd l Yangon, Myanmar</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period ">7/2026 - Present</span></div>
+                            <ul class="body-text-one text-muted">
+                                <li>Built and deployed RESTful APIs and microservices using NestJS and Docker on AWS ECS and App Runner.</li>
+                                <li>Developed full-stack web applications with React and Next.js, connected to PostgreSQL, MySQL, and MongoDB databases.</li>
+                                <li>Implemented CI/CD pipelines with Git Actions and deployed via AWS Amplify for seamless frontend delivery.</li>
+                                <li>Integrated Firebase Admin SDK for real-time push notifications and cloud messaging.</li>
+                                <li>Containerized applications with Docker and orchestrated deployments on Kubernetes (EKS).</li>
+                                <li>Optimized database performance and data operations across relational and NoSQL systems.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
                         <div class="row">
                             <div class="col-md-6">
                                 <h3><img src="assets/img/mitlogo.png" width="30px" class="mr-2" alt="mit logo">Full Stack Web Developer</h3>
                                 <h4 class="bg-primary organization">Myanmar Information Technology Pte.,Ltd l Yangon, Myanmar</h4>
                             </div>
-                            <div class="col-md-6"><span class="period ">4/2024 - Present</span></div>
+                            <div class="col-md-6"><span class="period ">4/2024 - 6/2025</span></div>
                             <ul class="body-text-one text-muted">
-                                <li>Developed RESTful APIs and serverless API gateways using AWS Lambda functions for mobile and web applications with Express.js.</li>
-                                <li>Built and maintained scalable web applications using Angular for frontend development and Node.js with Sequelize for backend services.</li>
-                                <li>Implemented H5 mini app development, ensuring optimized mobile experiences.</li>
+                                <li>Built and deployed RESTful APIs and microservices using NestJS and Docker on AWS ECS and App Runner.</li>
+                                <li>Developed full-stack web applications with React and Next.js, connected to PostgreSQL, MySQL, and MongoDB databases.</li>
+                                <li>Implemented CI/CD pipelines with Git Actions and deployed via AWS Amplify for seamless frontend delivery.</li>
                                 <li>Integrated Firebase Admin SDK for real-time push notifications and cloud messaging.</li>
-                                <li>Deployed and managed serverless applications using AWS SAM CLI for efficient cloud-based workflows.</li>
-                                <li>Designed, optimized, and managed PostgreSQL and MySQL databases to support business logic and high-performance data operations.</li>
-                                <li>Developed Dockerized microservices for deployment in cloud environments.</li>
+                                <li>Containerized applications with Docker and orchestrated deployments on Kubernetes (EKS).</li>
+                                <li>Optimized database performance and data operations across relational and NoSQL systems.</li>
                             </ul>
                         </div>
                     </div>
@@ -171,6 +188,8 @@
                         <h3>Frameworks & Libraries</h3>
                         <ul class="text-muted">
                             <li>Angular</li>
+                            <li>React</li>
+                            <li>Next.js</li>
                             <li>Bootstrap</li>
                             <li>jQuery</li>
                             <li>Express.js</li>
@@ -222,6 +241,99 @@
         </section>
     </main>
 
+    <!-- Print-Optimized CV -->
+    <div id="print-cv">
+        <div class="print-cv-header">
+            <img src="assets/img/me.jpg" alt="Photo" class="print-cv-photo">
+            <h1>Kyaw Soe</h1>
+            <p class="print-cv-title">Senior Web Developer</p>
+            <p class="print-cv-contact">
+                Yangon, Myanmar &nbsp;|&nbsp; kyawsoedeveloper@gmail.com &nbsp;|&nbsp; github.com/kyawsoe-dev
+            </p>
+        </div>
+
+        <div class="print-cv-section">
+            <h2>Professional Summary</h2>
+            <p>Experienced Fullstack Developer with 4+ years of expertise in building scalable and efficient web applications. Strong problem-solving abilities, collaborative team player, and dedicated to staying current with industry trends. Passionate about developing high-quality solutions that enhance user experience and performance.</p>
+        </div>
+
+        <div class="print-cv-section">
+            <h2>Work Experience</h2>
+
+            <div class="print-cv-item">
+                <div class="print-cv-item-header">
+                    <span class="print-cv-role">Senior Web Developer</span>
+                    <span class="print-cv-date">7/2026 - Present</span>
+                </div>
+                <p class="print-cv-company">PassionGeek Co., Ltd — Yangon, Myanmar</p>
+                <ul>
+                    <li>Built and deployed RESTful APIs and microservices using NestJS and Docker on AWS ECS and App Runner</li>
+                    <li>Developed full-stack web applications with React and Next.js, connected to PostgreSQL, MySQL, and MongoDB</li>
+                    <li>Implemented CI/CD pipelines with Git Actions and deployed via AWS Amplify for seamless frontend delivery</li>
+                    <li>Integrated Firebase Admin SDK for real-time push notifications and cloud messaging</li>
+                    <li>Containerized applications with Docker and orchestrated deployments on Kubernetes (EKS)</li>
+                    <li>Optimized database performance across relational and NoSQL systems</li>
+                </ul>
+            </div>
+
+            <div class="print-cv-item">
+                <div class="print-cv-item-header">
+                    <span class="print-cv-role">Full Stack Web Developer</span>
+                    <span class="print-cv-date">4/2024 - 6/2025</span>
+                </div>
+                <p class="print-cv-company">Myanmar Information Technology Pte., Ltd — Yangon, Myanmar</p>
+                <ul>
+                    <li>Built and deployed RESTful APIs and microservices using NestJS and Docker on AWS ECS and App Runner</li>
+                    <li>Developed full-stack web applications with React and Next.js, connected to PostgreSQL, MySQL, and MongoDB</li>
+                    <li>Implemented CI/CD pipelines with Git Actions and deployed via AWS Amplify for seamless frontend delivery</li>
+                    <li>Integrated Firebase Admin SDK for real-time push notifications and cloud messaging</li>
+                    <li>Containerized applications with Docker and orchestrated deployments on Kubernetes (EKS)</li>
+                    <li>Optimized database performance across relational and NoSQL systems</li>
+                </ul>
+            </div>
+
+            <div class="print-cv-item">
+                <div class="print-cv-item-header">
+                    <span class="print-cv-role">Junior Application Developer</span>
+                    <span class="print-cv-date">1/2022 - 3/2024</span>
+                </div>
+                <p class="print-cv-company">Brainwave Data Co., Ltd — Sittway, Rakhine, Myanmar</p>
+                <ul>
+                    <li>Developed RESTful APIs for mobile and web applications using Express.js</li>
+                    <li>Created administrative dashboards with optimized design patterns</li>
+                    <li>Designed SQL and NoSQL databases following normalization rules</li>
+                    <li>Utilized version control systems for collaborative development</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="print-cv-section" id="print-cv-projects-section">
+            <h2>Projects</h2>
+            <div id="print-cv-projects"></div>
+        </div>
+
+        <div class="print-cv-section">
+            <h2>Education</h2>
+            <div class="print-cv-item">
+                <div class="print-cv-item-header">
+                    <span class="print-cv-role">Bachelor of Computer Science (B.C.Sc)</span>
+                    <span class="print-cv-date">2017 - 2024</span>
+                </div>
+                <p class="print-cv-company">University of Computer Studies, Sittway (UCSS)</p>
+                <p class="print-cv-note">Qualified for Master Degree</p>
+            </div>
+        </div>
+
+        <div class="print-cv-section">
+            <h2>Technical Skills</h2>
+            <p><strong>Languages:</strong> JavaScript, TypeScript, C#, C++, Java</p>
+            <p><strong>Frameworks:</strong> Angular, React, Next.js, NestJS, Express.js, Bootstrap</p>
+            <p><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Redis</p>
+            <p><strong>Cloud & DevOps:</strong> AWS (Lambda, EKS, Amplify, App Runner, SAM), Docker, Kubernetes, CI/CD (Git Actions)</p>
+            <p><strong>Tools:</strong> Git, GitHub, Node.js, REST APIs, Firebase</p>
+        </div>
+    </div>
+
     <!-- Footer placeholder -->
     <div id="footer"></div>
 
@@ -230,5 +342,65 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <style>
+        #print-cv { display: none; }
+
+        @media print {
+            body { background: #fff !important; color: #000 !important; padding: 0 !important; margin: 0 !important; }
+            body * { visibility: hidden; }
+            #print-cv, #print-cv * { visibility: visible; }
+            #print-cv { display: block !important; position: absolute; left: 0; top: 0; width: 100%; padding: 0.75in 0.5in; font-family: 'Calibri', 'Segoe UI', Arial, sans-serif; color: #000; background: #fff; }
+            #navbar, #footer, .portfolio-block, .block-intro, .btn, hr, amp-auto-ads, script { display: none !important; }
+
+            .print-cv-header { text-align: center; margin-bottom: 20px; padding-bottom: 15px; border-bottom: 2px solid #2c3e50; }
+            .print-cv-photo { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; }
+            .print-cv-header h1 { font-size: 24pt; margin: 0; color: #2c3e50; letter-spacing: 1px; font-weight: 700; }
+            .print-cv-title { font-size: 13pt; margin: 4px 0; color: #555; }
+            .print-cv-contact { font-size: 10pt; margin: 4px 0; color: #666; }
+
+            .print-cv-section { margin-bottom: 16px; }
+            .print-cv-section h2 { font-size: 13pt; color: #2c3e50; border-bottom: 1px solid #ccc; padding-bottom: 3px; margin: 0 0 8px 0; text-transform: uppercase; letter-spacing: 0.5px; }
+            .print-cv-section p { font-size: 10.5pt; margin: 0 0 4px 0; line-height: 1.4; color: #333; }
+            .print-cv-section ul { margin: 4px 0; padding-left: 20px; }
+            .print-cv-section li { font-size: 10.5pt; line-height: 1.35; margin-bottom: 2px; color: #333; visibility: visible; }
+
+            .print-cv-item { margin-bottom: 12px; }
+            .print-cv-item-header { display: flex; justify-content: space-between; align-items: baseline; }
+            .print-cv-role { font-size: 11.5pt; font-weight: 700; color: #2c3e50; }
+            .print-cv-date { font-size: 10pt; color: #666; font-style: italic; }
+            .print-cv-company { font-size: 10.5pt; color: #555; font-style: italic; margin-bottom: 4px; }
+            .print-cv-link { font-size: 9.5pt; color: #2c3e50; margin-bottom: 4px; word-break: break-all; }
+            .print-cv-note { font-size: 10pt; color: #888; font-style: italic; margin-top: 2px; }
+
+            @page { margin: 0.5in; }
+        }
+    </style>
+    <script>
+        function downloadCV() {
+            const container = document.getElementById('print-cv-projects');
+            if (!container.hasChildNodes()) {
+                fetch('projects.json')
+                    .then(res => res.json())
+                    .then(projects => {
+                        projects.forEach(p => {
+                            const item = document.createElement('div');
+                            item.className = 'print-cv-item';
+                            const link = p.live && p.live !== '#' ? p.live.replace(/^https?:\/\//, '') : p.github.replace(/^https?:\/\//, '');
+                            item.innerHTML = `
+                                <div class="print-cv-role">${p.title}</div>
+                                <div class="print-cv-link">${link}</div>
+                                <p class="print-cv-company">${p.description}</p>
+                            `;
+                            container.appendChild(item);
+                        });
+                        window.print();
+                    })
+                    .catch(() => window.print());
+            } else {
+                window.print();
+            }
+        }
+    </script>
 </body>
+
 </html>
