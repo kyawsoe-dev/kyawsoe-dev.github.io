@@ -4,11 +4,11 @@
     "description": "A centralized environment variable and secret management platform for developers. Securely store, encrypt, compare, search, and inject project secrets across multiple applications from a single dashboard.",
     "tags": ["rust", "nextjs", "secure", "env", "tauri", "lan", "sync"],
     "github": "https://github.com/phyat/enveil",
-    "live": "https://github.com/kyawsoe-dev/enveil/releases/tag/v0.1.1"
+    "live": "https://github.com/kyawsoe-dev/enveil/releases/tag/latest"
   },
   {
     "title": "PHYAT",
-    "description": "URL shortener and link management platform built for Myanmar builders. Shorten, customize, protect, and track links with a clean dashboard and developer-ready API.",
+    "description": "A URL shortener and link management platform for developers. Shorten, customize, protect, and track links with detailed analytics and a developer-ready API from a single dashboard. Built with NestJS and Next.js.",
     "tags": ["NestJS", "nextjs", "Prisma", "PostgreSQL", "link", "qr"],
     "github": "https://github.com/phyat/url-shortener",
     "live": "https://phyat-web.vercel.app"
@@ -21,11 +21,12 @@
     "live": "https://socket-client-w3cc.onrender.com"
   },
   {
-    "title": "E-Commerce Platform",
-    "description": "A full-featured e-commerce system supporting merchants, products, categories and payments. Features include user authentication, product management, shopping cart, and order tracking.",
-    "tags": ["TypeScript", "React", "Prisma", "PostgreSQL"],
-    "github": "#",
-    "live": "https://ecommerce-react-miwf.onrender.com"
+    "title": "Expense Tracker App",
+    "description": "A full-stack expense tracker with web and mobile clients. Features include expense management, category tracking, group sharing, analytics dashboard, and multi-theme support.",
+    "tags": ["Next.js", "Flutter", "TypeScript", "Dart", "Tailwind CSS"],
+    "github": "https://github.com/kyawsoe-dev/expense-tracker-frontend",
+    "live": "https://expense-tracker-frontend-chi-rose.vercel.app",
+    "mobile": "https://drive.google.com/file/d/1_6inV7Pdhly98LOWADIwIDb791yASAm5/view"
   },
   {
     "title": "API Monitoring Dashboard",
@@ -36,7 +37,7 @@
   },
   {
     "title": "Multi-Database Manager CLI",
-    "description": "A CLI tool to manage multiple databases from a single interface. It supports Postgres, MySQL, and MongoDB and convenient for SQL common operations.",
+    "description": "A CLI tool to manage multiple databases from a single interface. It supports Postgres, MySQL, and MongoDB and convenient for SQL common operations. Features query execution across all connected databases.",
     "tags": ["Typescript", "npm"],
     "github": "https://github.com/kyawsoe-dev/db-manager-cli",
     "live": "https://www.npmjs.com/package/multi-dbman-cli"

@@ -386,9 +386,11 @@
                             const item = document.createElement('div');
                             item.className = 'print-cv-item';
                             const link = p.live && p.live !== '#' ? p.live.replace(/^https?:\/\//, '') : p.github.replace(/^https?:\/\//, '');
+                            const mobileLink = p.mobile ? p.mobile.replace(/^https?:\/\//, '') : '';
                             item.innerHTML = `
                                 <div class="print-cv-role">${p.title}</div>
-                                <div class="print-cv-link">${link}</div>
+                                <div class="print-cv-link">Web: ${link}</div>
+                                ${mobileLink ? `<div class="print-cv-link">Mobile: ${mobileLink}</div>` : ''}
                                 <p class="print-cv-company">${p.description}</p>
                             `;
                             container.appendChild(item);

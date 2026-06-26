@@ -79,6 +79,9 @@
                   <a href="${p.live}" target="_blank" class="btn btn-outline-primary btn-sm">
                     <i class="ion-android-open me-1"></i> Live
                   </a>
+                  ${p.mobile ? `<a href="${p.mobile}" target="_blank" class="btn btn-outline-success btn-sm">
+                    <i class="ion-android-phone-portrait me-1"></i> Mobile
+                  </a>` : ''}
                 </div>
               </div>
             `;
