@@ -4,7 +4,7 @@
     "description": "A centralized environment variable and secret management platform for developers. Securely store, encrypt, compare, search, and inject project secrets across multiple applications from a single dashboard.",
     "tags": ["rust", "nextjs", "secure", "env", "tauri", "lan", "sync"],
     "github": "https://github.com/phyat/enveil",
-    "live": "https://github.com/kyawsoe-dev/enveil/releases/tag/latest"
+    "live": "https://github.com/kyawsoe-dev/enveil/releases/latest"
   },
   {
     "title": "PHYAT",
